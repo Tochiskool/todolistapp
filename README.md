@@ -22,3 +22,7 @@ A functional todo application
 *body-parser* -
 *nodemon* - *express*
 - Install dependencies not forgetting to run -g sequelize-cli
+- Run *npm run watch or node server.js* Then on your browser access localhost port
+
+["Access app Here"]https://localhost:8080
+[Access_All_Todos]https://localhost:8080/api/todos
