@@ -22,6 +22,10 @@ app.use(express.json());
 // Static directory
 app.use(express.static("public"));
 
+// Routes
+// =============================================================
+require("./routes/api-routes.js")(app);
+
 
 db.sequelize.sync().then(()=>{
     // Syncing our sequelize models and then starting our Express app
