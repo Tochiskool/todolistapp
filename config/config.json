@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "Password must be hidden when staging",
+    "password": "Chris001++",
     "database": "todolistappdb",
     "host": "127.0.0.1",
     "dialect": "mysql",
